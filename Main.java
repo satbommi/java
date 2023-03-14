@@ -1,5 +1,9 @@
+import java.util.*;
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String a=sc.nextLine();
+        System.out.println(a);
     }
 }
